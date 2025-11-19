@@ -38,8 +38,8 @@ A complete `schema.sql` file is provided to generate all required tables.
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/university-management-rawsql.git
-cd university-management-rawsql
+git clone https://github.com/shahzadarizwanali/University-Management-System-DRF-PostgreSQL-without-ORM.git
+cd university-management-system
 ```
 
 ### 2️⃣ Install dependencies
