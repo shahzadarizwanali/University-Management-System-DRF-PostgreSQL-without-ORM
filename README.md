@@ -115,15 +115,38 @@ See file: `schema.sql`
 ## 📁 Project Structure
 
 ```
-backend/
-│── api/
-│   ├── views.py
-│   ├── urls.py
-│   ├── db.py
-│── schema.sql
-│── requirements.txt
-│── README.md
-│── manage.py
+UNIVERSITY MANAGEMENT SYSTEM/
+│
+├── backend/
+│   ├── api/
+│   │   ├── sql_queries/
+│   │   │   └── __init__.py
+│   │   ├── __init__.py
+│   │   ├── admin.py
+│   │   ├── apps.py
+│   │   ├── db.py
+│   │   ├── models.py        # (Not used for ORM – kept for DRF standards)
+│   │   ├── serializers.py
+│   │   ├── tests.py
+│   │   ├── urls.py
+│   │   └── views.py
+│   │
+│   ├── backend/
+│   │   ├── __init__.py
+│   │   ├── asgi.py
+│   │   ├── settings.py
+│   │   ├── urls.py
+│   │   └── wsgi.py
+│   │
+│   ├── database/
+│   │   └── schema.sql       # PostgreSQL tables creation script
+│   │
+│   └── manage.py
+│
+├── env/                     # Virtual environment (not included in Git)
+├── README.md
+└── requirements.txt
+
 ```
 
 ---
